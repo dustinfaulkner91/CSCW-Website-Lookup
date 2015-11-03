@@ -1,195 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Cscw-website-lookup by dustinfaulkner91</title>
-  </head>
-
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>Cscw-website-lookup</h1>
-          <h2>Lookup Page for Website</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/dustinfaulkner91/CSCW-Website-Lookup/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/dustinfaulkner91/CSCW-Website-Lookup/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/dustinfaulkner91/CSCW-Website-Lookup" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h1>
-<a id="what-do-you-need--snippets-borrowed-from-httpcodepeniofmcalistopenmjkxpa" class="anchor" href="#what-do-you-need--snippets-borrowed-from-httpcodepeniofmcalistopenmjkxpa" aria-hidden="true"><span class="octicon octicon-link"></span></a>What do you need?  Snippets Borrowed From: <a href="http://codepen.io/FMCalisto/pen/mJKxpa">http://codepen.io/FMCalisto/pen/mJKxpa</a>
-</h1>
-
-<div class="wrap">
-    <form action="">
-    <h1>
-    <a id="this-is-a-likert-scale-survey" class="anchor" href="#this-is-a-likert-scale-survey" aria-hidden="true"><span class="octicon octicon-link"></span></a>This is a Likert Scale survey</h1>
-  
-    How many people are going to contribute to your project?
-    <ul>
+  <div class="wrap">
+  <h1 class="likert-header">This is a Likert Scale survey</h1>
+  <form action="">
+    <label class="statement">This HTML Likert scale is easy to use.</label>
+    <ul class='likert'>
       <li>
-        
-        More than 20
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly agree</label>
       </li>
       <li>
-        
-        11-20
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Agree</label>
       </li>
       <li>
-        
-        5-10
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Neutral</label>
       </li>
       <li>
-        
-        3-4
+        <input type="radio" name="likert" value="disagree">
+        <label>Disagree</label>
       </li>
       <li>
-        
-        2
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly disagree</label>
       </li>
-    
     </ul>
-    How will your team be communicating?
-    <ul>
+    <label class="statement">It's clear that this is a responsive design.</label>
+    <ul class='likert'>
       <li>
-        
-        Only in the same room
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly agree</label>
       </li>
       <li>
-        
-        Participants can be in different rooms
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Agree</label>
       </li>
-
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="disagree">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly disagree</label>
+      </li>
     </ul>
-    Does your team need to work together at the same time?
-    <ul>
+    <label class="statement">Codepen.io is an excellent tool for prototyping.</label>
+    <ul class='likert'>
       <li>
-        
-        Yes, Only at the same time.
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly agree</label>
       </li>
       <li>
-        
-        No, only at different times.
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Agree</label>
       </li>
       <li>
-        
-        Both.
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Neutral</label>
       </li>
-
+      <li>
+        <input type="radio" name="likert" value="disagree">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly disagree</label>
+      </li>
     </ul>
-    
-    How many different areas of study is your team involved in?
-    <ul>
+    <label class="statement">Pete Fecteau is incredibly smart and handsome.</label>
+    <ul class='likert'>
       <li>
-        
-        More than 10.
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly agree</label>
       </li>
       <li>
-        
-        6-10
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Agree</label>
       </li>
       <li>
-        
-        4-5
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Neutral</label>
       </li>
       <li>
-        
-        2-3
+        <input type="radio" name="likert" value="disagree">
+        <label>Disagree</label>
       </li>
       <li>
-        
-        1
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly disagree</label>
       </li>
-      
-       How routine are the tasks involved in the project?
-    <ul>
-      <li>
-        
-       We know what we're doing.
-      </li>
-      <li>
-        
-        We mosty know what we're doing.
-      </li>
-      <li>
-        
-        Most of the tasks will be new.
-      </li>
-      <li>
-        
-        The task will evolve over time.
-      </li>
-      
-       How long is the project expected to last?
-    <ul>
-      <li>
-        
-        Up to 1 day.
-      </li>
-      <li>
-        
-        Up to 1 week.
-      </li>
-      <li>
-        
-        up to 1 month.
-      </li>
-      <li>
-        
-        up to 6 months.
-      </li>
-      <li>
-        
-        longer than 6 months.
-      </li>
-      
-       Turnover?
-    <ul>
-      <li>
-        
-        Closed Group with private collaboration
-      </li>
-      <li>
-        
-        Closed group with private and open collaboration
-      </li>
-      <li>
-        
-        Opened group with open collaboration
-      </li>
-
-      
     </ul>
-    <div>
-      Clear
-      Submit
+    <div class="buttons">
+      <button class="clear">Clear</button>
+      <button class="submit">Submit</button>
     </div>
-    </form>
-  
+  </form>
 </div>
-        </section>
-
-        <footer>
-          Cscw-website-lookup is maintained by <a href="https://github.com/dustinfaulkner91">dustinfaulkner91</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
-  </body>
 </html>
