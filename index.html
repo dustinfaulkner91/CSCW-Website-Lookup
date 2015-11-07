@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+<?php
+$db = null;
+if (isset($_SERVER['SERVER_SOFTWARE']) &&
+strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
+  // Connect from App Engine.
+  try{
+     $db = new pdo('mysql:unix_socket=/cloudsql/<your-project-id>:<your-instance-name>;dbname=guestbook', 'root', '');
+  }catch(PDOException $ex){
+      die(json_encode(
+          array('outcome' => false, 'message' => 'Unable to connect.')
+          )
+      );
+  }
+}
+?>
 <html>
   <head>
     <meta charset='utf-8'>
